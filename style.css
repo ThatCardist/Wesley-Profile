@@ -1,0 +1,127 @@
+/***************************
+General
+***************************/
+a {
+	color: black;
+}
+a:hover {
+	color:rgb(25, 163, 255);
+}
+img {
+	max-width: 100%;
+}
+html{
+	background-color: #ddd;
+}
+
+nav a.active {
+	color:rgba(50, 50, 50 0.75);
+}
+html{
+	background: linear-gradient(#aaa , #ddd);
+}
+header{
+	font-family: Raleway;
+}
+body {
+	margin: 0;
+	font-family: Raleway;
+	text-align: center;
+}
+
+/***************************
+Heading
+***************************/
+
+header a {
+	text-decoration: none;
+	padding: auto 10%;
+}
+h1 {
+	margin: 0 0;
+	clear: bottom;
+}
+
+#mainTitle{
+	size:1.5em;
+}
+
+#subTitle {
+	float: top;
+	font-size: .85em;
+}
+#logo a:hover {
+	font-color:black;
+}
+/***************************
+Nav
+***************************/
+nav li {
+	padding: 0 5px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	border-width: 1px;
+
+}
+nav a {
+	text-align: center;
+	text-decoration: none;
+	font-family: open sans;
+}
+nav ul {
+	text-align: center;
+}
+nav {
+	margin-bottom: 10px;
+}
+.active {
+	color:rgb();
+}
+
+/***************************
+body
+***************************/
+
+#PicOfMe {
+	display: block;
+	margin: 0 auto;
+	border-radius: 25%;
+}
+
+/***************************
+Footer
+***************************/
+footer a {
+	text-decoration: none;
+}
+#insta {
+	opacity: 0.50;
+}
+footer p {
+	opacity: 0.5;
+}
+
+footer {
+	width: 100%;
+	position:absolute;
+	bottom: 0px;
+	font-size: 0.75em;
+}
+/***************************
+About
+***************************/
+
+/***************************
+Contact
+***************************/
+#phone {
+	clear:left;
+}
+/***************************
+Works
+***************************/
