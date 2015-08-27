@@ -17,33 +17,41 @@ html{
 nav a.active {
 	color:rgba(50, 50, 50 0.75);
 }
-html{
-	background: linear-gradient(#aaa , #ddd);
-}
 header{
 	font-family: Raleway;
 }
 body {
-	margin: 0;
+	margin: auto;
 	font-family: Raleway;
 	text-align: center;
+	background: linear-gradient(#aaa , #ddd);
+	position: absolute;
+	padding: 0 5px;
+}
+header a {
+	text-decoration: none;
 }
 
+
+/***************************
+Media Queries
+***************************/
+@media (min-width: 320px) and (max-width: 700px){
+	#idbar{
+		font-size: 50px;
+	}
+	p #aboutContent {
+		font-size: 40px;
+	}
+}
 /***************************
 Heading
 ***************************/
 
-header a {
-	text-decoration: none;
-	padding: auto 10%;
-}
-h1 {
-	margin: 0 0;
-	clear: bottom;
-}
 
 #mainTitle{
 	size:1.5em;
+	margin-bottom: 5px;
 }
 
 #subTitle {
@@ -111,6 +119,7 @@ footer {
 	position:absolute;
 	bottom: 0px;
 	font-size: 0.75em;
+	position: fixed;
 }
 /***************************
 About
