@@ -1,0 +1,32 @@
+
+*{
+  margin:0;
+  color:black;
+}
+body{
+  text-align: center;
+}
+
+.page-header{
+  font-family: Raleway;
+  color:black;
+}
+a:hover{
+  color: #33ADD6;
+}
+.wrapper{
+  height:auto;
+  color:black;
+  font-family: Raleway;
+}
+.nav .nav-pills{
+  color: black;
+  padding-bottom: 10px;
+}
+footer{
+  position: relative;
+  opacity:.5;
+}
+.container{
+  color:black;
+}
